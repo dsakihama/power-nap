@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Power Nap</string>
+    <string name="label_header">POWER NAP</string>
+    <string name="label_version">v1.0 · READY</string>
+    <string name="label_add_minutes">TAP TO ADD MINUTES</string>
+    <string name="label_alarm_sound">ALARM SOUND</string>
+    <string name="btn_start">START</string>
+    <string name="btn_stop">STOP</string>
+    <string name="btn_stop_alarm">STOP ALARM</string>
+    <string name="btn_snooze">SNOOZE · 9 MIN</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Jarvis Design System — color tokens
+  Hex values match Jarvis.html exactly.
+  Android uses ARGB hex: #AARRGGBB for alpha variants.
+-->
+<resources>
+    <!-- Background layers -->
+    <color name="bg_void">#080C14</color>
+    <color name="bg_deep">#0D1422</color>
+    <color name="bg_card">#111826</color>
+
+    <!-- Accent -->
+    <color name="accent_signal">#00C8FF</color>
+    <color name="accent_core">#0066FF</color>
+    <color name="accent_dim_bg">#2600C8FF</color>   <!-- rgba(0,200,255,0.15) -->
+    <color name="border_glow">#4000C8FF</color>      <!-- rgba(0,200,255,0.25) -->
+
+    <!-- Text -->
+    <color name="text_frost">#E8EFF8</color>
+    <color name="text_mist">#8A9BB5</color>
+    <color name="text_dim">#4A5875</color>
+
+    <!-- Borders -->
+    <color name="border_default">#1E2D45</color>
+
+    <!-- Alarm active state -->
+    <color name="alarm_active">#FF4D4D</color>
+
+    <!-- Material theme required slots -->
+    <color name="colorPrimary">@color/accent_signal</color>
+    <color name="colorPrimaryVariant">@color/accent_core</color>
+    <color name="colorOnPrimary">@color/bg_void</color>
+    <color name="colorSurface">@color/bg_card</color>
+    <color name="colorOnSurface">@color/text_frost</color>
+</resources>

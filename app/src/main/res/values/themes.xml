@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+      Base theme — forces a dark Material surface so Material components
+      render dark by default; Jarvis color tokens override the specifics.
+    -->
+    <style name="Theme.PowerNap" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowBackground">@color/bg_void</item>
+        <item name="android:statusBarColor">@color/bg_void</item>
+        <item name="android:navigationBarColor">@color/bg_void</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Material slots -->
+        <item name="colorPrimary">@color/accent_signal</item>
+        <item name="colorPrimaryVariant">@color/accent_core</item>
+        <item name="colorOnPrimary">@color/bg_void</item>
+        <item name="colorSurface">@color/bg_card</item>
+        <item name="colorOnSurface">@color/text_frost</item>
+        <item name="android:textColorPrimary">@color/text_frost</item>
+        <item name="android:textColorSecondary">@color/text_mist</item>
+
+        <!-- Ripple consistent with accent -->
+        <item name="rippleColor">@color/accent_dim_bg</item>
+    </style>
+
+    <!-- ── Quick-add buttons (1, 5, 10, 25, 50, 90) ── -->
+    <style name="Widget.PowerNap.Button.Add" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="backgroundTint">@color/bg_card</item>
+        <item name="strokeColor">@color/border_default</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cornerRadius">6dp</item>
+        <item name="android:textColor">@color/text_frost</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textStyle">bold</item>
+        <item name="rippleColor">@color/accent_dim_bg</item>
+        <!-- Remove default insets so height is accurate -->
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <!-- ── Sound chip buttons ── -->
+    <style name="Widget.PowerNap.Button.Sound" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="backgroundTint">@color/bg_card</item>
+        <item name="strokeColor">@color/border_default</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cornerRadius">4dp</item>
+        <item name="android:textColor">@color/text_mist</item>
+        <item name="android:textSize">9sp</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="rippleColor">@color/accent_dim_bg</item>
+        <item name="android:paddingStart">6dp</item>
+        <item name="android:paddingEnd">6dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <!-- ── Primary action button (START / STOP) ── -->
+    <style name="Widget.PowerNap.Button.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/accent_signal</item>
+        <item name="cornerRadius">6dp</item>
+        <item name="android:textColor">@color/bg_void</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.15</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <!-- ── Snooze button (outlined, accent border) ── -->
+    <style name="Widget.PowerNap.Button.Snooze" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="backgroundTint">@color/bg_card</item>
+        <item name="strokeColor">@color/border_glow</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cornerRadius">6dp</item>
+        <item name="android:textColor">@color/accent_signal</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="rippleColor">@color/accent_dim_bg</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+</resources>

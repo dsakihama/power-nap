@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Power Nap launcher icon — cyan clock on void background.
+  Jarvis aesthetic: minimal, precise, glowing accent.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Clock face ring -->
+    <path
+        android:pathData="M54,20 m-30,0 a30,30 0,1,0 60,0 a30,30 0,1,0 -60,0"
+        android:strokeColor="#00C8FF"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:strokeAlpha="0.8" />
+
+    <!-- Subtle filled circle (dim bg) -->
+    <path
+        android:pathData="M54,20 m-28,0 a28,28 0,1,0 56,0 a28,28 0,1,0 -56,0"
+        android:fillColor="#00C8FF"
+        android:fillAlpha="0.07" />
+
+    <!-- Hour hand (pointing ~10 o'clock → up-left) -->
+    <path
+        android:pathData="M54,20 L44,33"
+        android:strokeColor="#E8EFF8"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+
+    <!-- Minute hand (pointing ~2 o'clock → up-right) -->
+    <path
+        android:pathData="M54,20 L64,10"
+        android:strokeColor="#00C8FF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+
+    <!-- Center dot -->
+    <path
+        android:pathData="M54,20 m-3,0 a3,3 0,1,0 6,0 a3,3 0,1,0 -6,0"
+        android:fillColor="#00C8FF" />
+
+    <!-- "ZZZ" suggestion — three small tick marks at 6, 8, 10 o'clock positions -->
+    <path android:pathData="M54,50 L54,47" android:strokeColor="#4A5875" android:strokeWidth="1.5" android:strokeLineCap="round" />
+    <path android:pathData="M38,28 L40,26" android:strokeColor="#4A5875" android:strokeWidth="1.5" android:strokeLineCap="round" />
+    <path android:pathData="M70,28 L68,26" android:strokeColor="#4A5875" android:strokeWidth="1.5" android:strokeLineCap="round" />
+
+</vector>
